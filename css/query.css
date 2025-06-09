@@ -1,0 +1,128 @@
+/* 1499px and below */
+@media (max-width: 1499px) {
+  .Customers_details {
+    max-width: 1320px;
+  }
+  .customer_box1,
+  .customer_box2,
+  .customer_box3,
+  .customer_box4,
+  .customer_box5,
+  .customer_box6 {
+    width: 350px;
+  }
+}
+
+/* 1199px and below */
+@media (max-width: 1199px) {
+  .Customers_details {
+    max-width: 1320px
+  }
+  .customer_mainbox-1,
+  .customer_mainbox-2 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .customer_box1,
+  .customer_box2,
+  .customer_box3,
+  .customer_box4,
+  .customer_box5,
+  .customer_box6 {
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 25px;
+  }
+  
+}
+
+/* 991px and below */
+@media (max-width: 991px) {
+  .Customers_details {
+    max-width: 90%;
+  }
+  .Customers_title h3 {
+    font-size: 32px;
+  }
+  .child_box1 {
+    padding: 25px;
+  }
+  .child_box1 p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .customer_box1,
+  .customer_box2,
+  .customer_box3,
+  .customer_box4,
+  .customer_box5,
+  .customer_box6 {
+    width: 80%;
+    margin: 20px auto;
+    height: auto;
+  }
+}
+
+/* 768px and below */
+@media (max-width: 768px) {
+  .Customers_title h3 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  .child_box1 p {
+    font-size: 15px;
+  }
+  .person_img img {
+    width: 60px;
+    height: 60px;
+  }
+  .data_1 i {
+    font-size: 50px;
+  }
+}
+
+/* 576px and below */
+@media (max-width: 576px) {
+  .Customers_title h3 {
+    font-size: 24px;
+  }
+  .child_box1 {
+    padding: 20px;
+  }
+  .child_box1 p {
+    font-size: 14px;
+  }
+  .person_data h4 {
+    font-size: 16px;
+  }
+  .person_data p {
+    font-size: 14px;
+  }
+}
+
+/* 480px and below */
+@media (max-width: 480px) {
+  .customer_box1,
+  .customer_box2,
+  .customer_box3,
+  .customer_box4,
+  .customer_box5,
+  .customer_box6 {
+    width: 95%;
+    padding: 0 10px;
+  }
+  .person_img {
+    flex-direction: column;
+    align-items: center;
+  }
+  .person_data {
+    padding-left: 0;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .data_1 {
+    padding-left: 0;
+  }
+}
+
+
