@@ -16,14 +16,7 @@ xl  >=1199px
       .Customers_details {
     max-width: 1499;
   }
-  .customer_box1,
-  .customer_box2,
-  .customer_box3,
-  .customer_box4,
-  .customer_box5,
-  .customer_box6 {
-    /* width: 350px; */
-  }
+  
 }
 
 @media (max-width: 1199px) {
