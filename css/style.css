@@ -215,7 +215,7 @@ a {
 
 .service_card_main {
   display: flex;
-  max-width: 1320px;
+  max-width: 100%;
 }
 
 .first_card {
@@ -225,7 +225,7 @@ a {
 
 .card-1 img {
   border-radius: 20px;
-  width: 290px;
+  width: 100%;
   height: auto;
   object-fit: cover;
 }
@@ -233,7 +233,7 @@ a {
 .card-2 {
   background-color: white;
   text-align: center;
-  width: 292px;
+  width: 100%;
   height: auto;
   padding: 30px;
   border-radius: 10px;
@@ -268,13 +268,18 @@ a {
   font-weight: 600;
   color: #747ed1;
 }
+.second_card{
+  display: flex;
+  flex-direction: column;
+  
+}
 
 .card-3 {
   background-color: white;
   text-align: center;
-  width: 292px;
+  width: 100%;
   height: auto;
-  padding: 20px;
+  padding: 30px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin-top: 30px;
@@ -303,7 +308,7 @@ a {
   border-radius: 20px;
   margin-top: 25px;
   margin-left: 20px;
-  width: 290px;
+  width: 100%;
   height: auto;
   object-fit: cover;
 }
@@ -597,20 +602,28 @@ a {
   text-align: center;
 }
 
-.recent_projects_img img {
-  width: 610px;
-  display: flex;
-  height: auto;
-  gap: 30px;
+/* .recent_projects_img img {
+  height: 80%;
   border-radius: 10px;
-  flex-wrap: wrap;
   object-fit: cover;
-  flex-direction: column;
+} */
+
+.image_1{
+  max-width: 50%;
+  height: auto;
+  display: flex;
+
+}
+.image_2{
+  max-width: 50%;;
+height: auto;
+  display: flex;
 }
 .recent_projects_img {
+  max-width: 100%;
   gap: 30px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
