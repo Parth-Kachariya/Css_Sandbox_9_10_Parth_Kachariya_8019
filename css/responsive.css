@@ -564,7 +564,7 @@ xl  >=1199px
 
 .perfect_control_text {
   height: auto;
-  /* max-width: 1120px;  */
+  /* max-width: 1120px; */
   margin:auto;
   padding-right: 30px;
   padding-left: 30px;
@@ -664,11 +664,9 @@ xl  >=1199px
     font-size: 14px;
   }
 }
-
+/* join our community */
 /*Our Recent Projects */
-.recent_projects_img img:nth-child(2) {
-  /* display: none; */
-} 
+ 
 
 .recent_projects_img :nth-child(1) {
   width: 100%;
