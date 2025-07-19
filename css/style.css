@@ -210,7 +210,6 @@ a {
 .service_main {
   display: flex;
   padding: 100px 0;
-  
 }
 
 .service_card_main {
@@ -268,10 +267,9 @@ a {
   font-weight: 600;
   color: #747ed1;
 }
-.second_card{
+.second_card {
   display: flex;
   flex-direction: column;
-  
 }
 
 .card-3 {
@@ -608,15 +606,14 @@ a {
   object-fit: cover;
 } */
 
-.image_1{
+.image_1 {
   max-width: 50%;
   height: auto;
   display: flex;
-
 }
-.image_2{
-  max-width: 50%;;
-height: auto;
+.image_2 {
+  max-width: 50%;
+  height: auto;
   display: flex;
 }
 .recent_projects_img {
